@@ -1,0 +1,4 @@
+- "Type system as a homomorphism between monoids"
+- understand the algebric structure of linear logic propositions
+- monoid act on itself -- element of `-o`
+- interpret cut rule in monoid theory

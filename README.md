@@ -2,6 +2,8 @@
 
 Programming monoid.
 
+Two level of compositions, one at function level, one at type level.
+
 ## Contributions
 
 To make a contribution, fork this project and create a pull request.

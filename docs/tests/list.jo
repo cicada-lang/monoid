@@ -1,0 +1,23 @@
+(define-datatype List ((- Type))
+  (null () A List)
+  (cons (- A) (- A List) A List))
+
+(claim List.append
+  (- A List) (- A List)
+  A List)
+
+(define List.append
+  (let y) (let x) x
+  (match
+    (List.null y)
+    (List.case (let tail head) y tail List.append head List.cons)))
+
+(claim List.map
+  (- (fn (- A) B)) (- A List)
+  B List)
+
+(define List.map
+  (let f) (let x) x
+  (match
+    (List.null List.null)
+    (List.cons (let head) (fn f) List.map head f List.cons)))

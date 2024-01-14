@@ -1,0 +1,14 @@
+(define square
+  dup mul)
+
+(define three
+  (object (x 1) (y 2))
+  (let obj)
+  (send obj x)
+  (send obj y)
+  add)
+
+(define Y
+  (let f)
+  (fn (let x) x x f)
+  (let x) x x f)
